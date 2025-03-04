@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.incture.project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Text id="t1" text="{oModelTest>/name}"></Text>
+        <Text id="t2" text="{oModelTest>/type}"></Text>
+
+    </Page>
+</mvc:View>
