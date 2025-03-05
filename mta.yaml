@@ -20,6 +20,10 @@ modules:
       - comincturesapconnectiontest.zip
       name: comincturesapconnectiontest
       target-path: resources/
+    - artifacts:
+      - compdfuploadpdfupload.zip
+      name: compdfuploadpdfupload
+      target-path: resources/
 - name: cominctureproject1
   type: html5
   path: project1
@@ -33,6 +37,16 @@ modules:
 - name: comincturesapconnectiontest
   type: html5
   path: connection_test
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: compdfuploadpdfupload
+  type: html5
+  path: pdfupload
   build-parameters:
     build-result: dist
     builder: custom

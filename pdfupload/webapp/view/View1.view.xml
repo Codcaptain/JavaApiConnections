@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.pdfupload.pdfupload.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <HBox justifyContent="Center">
+    <Button text="open pdf" type="Attention" press="onClickFn"></Button>
+    <Button text="open Fragment" type="Attention" press="onClickFragment"></Button></HBox></content>
+    </Page>
+</mvc:View>
