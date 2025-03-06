@@ -1,0 +1,4 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<Dialog >
+<content>
+	<PDFViewer class="sapUiSmallMarginEnd" source="{/Source}" title="{/Title1}" height="{/Height}" width="auto" isTrustedSource="true"></PDFViewer></content></Dialog></core:FragmentDefinition>
