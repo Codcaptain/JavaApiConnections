@@ -51,6 +51,9 @@
                 "settings": {
                     "bundleName": "com.pdfupload.pdfupload.i18n.i18n"
                 }
+            },
+            "localModel": {
+                "type": "sap.ui.model.json.JSONModel"
             }
         },
         "resources": {

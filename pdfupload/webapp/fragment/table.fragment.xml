@@ -2,13 +2,13 @@
     xmlns:core="sap.ui.core"
     xmlns="sap.m"
 >
-    <Dialog>
+     <Dialog>
         <content>
             <PDFViewer
                 class="sapUiSmallMarginEnd"
-                source="{localModel>/pdfData/Source}"
-                title="{localModel>/pdfData/Title}"
-                height="{localModel>/pdfData/Height}"
+                source="{localModel>/tableData/Source}"
+                title="{localModel>/tableData/Title}"
+                height="{localModel>/tableData/Height}"
                 width="auto"
                 isTrustedSource="true"
             />
@@ -16,7 +16,7 @@
         <endButton>
             <Button
                 text="close"
-                press="onClosing"
+                press="onCloseTable"
             />
         </endButton>
     </Dialog>
